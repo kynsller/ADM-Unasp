@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: flexo;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'flexo';
+    src: url(flexo.otf);
+    font-weight: 100;
+}
+
+
+#frase-index {
+    margin-top: 300px; 
+}
+
+#titulo-inicial {
+    font-size:50px;
+    font-weight: 100;
+}
+
+#btn-part {
+    background: white;
+    color: #13284b;
+    padding: 10px;
+    
+}
+
+#btn-part:hover {
+    padding: 10px;
+    color: white;
+    background: #13284b;
+}

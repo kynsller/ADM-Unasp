@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: flexo;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'flexo';
+    src: url(flexo.otf);
+    font-weight: 100;
+}
+
+/*PAGINA INDEX*/
+
+#frase-index {
+    margin-top: 200px; 
+}
+
+#titulo-inicial {
+    font-size:40px;
+ 
+}
+
+#btn-part {
+    background: white;
+    color: #13284b;
+    padding: 10px;
+    
+}
+
+#btn-part:hover {
+    padding: 10px;
+    color: white;
+    background: #13284b;
+}
+
+/*PAGINA HOME*/
+
+.letra {
+    font-size: 15px;
+    color: black;
+    font-weight: 100;
+}
+
+.conteudo-home {
+    border: 2px solid #f05023;
+    padding: 10px;
+    border-radius: 20px;
+    background: #edf3f7;
+}
+.titulo {
+    margin: 20px;
+    padding: 10px;
+}
+
+fieldset {
+    width: 30px;
+}
+
+.item {
+    padding: auto;
+    display: flex;
+    
+}
+
+.box{
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px; 
+}
+
+#formContato {
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+
+.btn-votar {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    text-align: center; 
+}
+
+#btn-votar {
+    border: 1px solid #f05023;
+    background: white;
+    color: #f05023;
+    padding: 10px;
+}
+
+#btn-votar:hover {
+    padding: 10px;
+    color: white;
+    background: #f05023;
+}
+
+
+
+
+
