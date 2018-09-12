@@ -82,22 +82,14 @@
                             <div class="col-md-2"></div>
                         
                             <div class="form-group col-md-8">
-                                <label for="amigo" class="letra">+ Amigo(a)</label>
-                                <input type="text" name="amigo" class="form-control" placeholder="Digite o nome do seu candidato" id="amigo" required="required">
+                                <label for="amigo" class="letra">Qual o professor que você gostaria que fosse o Paraninfo da sua formatura?</label>
+                                <input type="text" name="resposta" class="form-control" placeholder="Digite o nome do professor" id="amigo" required="required">
                             </div>
                             
                         </div>  
 
-                        <div class="row">
-                            <div class="col-md-2"></div>
-                                <div class="form-group col-md-8">
-                                    <label for="amigo" class="letra">+ Ético-Cristão(a)</label>
-                                    <input type="text" name="etico" class="form-control" placeholder="Digite o nome do seu candidato" id="etico" required="required">
-                                </div>
-                        </div>
-
                         <div class="col-md-5"></div>
-                        <button type="submit" class="btn btn-primary btn-votar col-md-2" id="btn-votar">Votar</button>
+                        <button type="submit" class="btn btn-primary btn-votar col-md-2" id="btn-votar">Enviar resposta</button>
 
                     </form>  
                 </div>     

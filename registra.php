@@ -6,9 +6,7 @@
 
     $turma = $_POST['turma'];
 
-    $amigo = $_POST['amigo'];
-    
-    $etico = $_POST['etico'];
+    $resposta = $_POST['resposta'];
 
     $objDb = new db(); //Criacao de novo obj da classe db.php
     $link = $objDb->conecta_mysql(); //Variavel link recebendo o retorno da funcao mysql
@@ -21,7 +19,7 @@
             'Location: home.php?erro=1'
         );
     } else {
-        $sql = "INSERT INTO usuarios(ra,turma,amigo,etico) VALUES ('$ra','$turma','$amigo','$etico') ";
+        $sql = "INSERT INTO usuarios(ra,turma,resposta) VALUES ('$ra','$turma','$resposta') ";
 
         //executar a query
         if(mysqli_query($link, $sql)){
